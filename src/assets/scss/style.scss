@@ -1,0 +1,72 @@
+body {
+    background: #f1f1f1;
+    font-family: tahoma;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#app {
+    max-width: 400px;
+    margin: auto;
+    background: #fff;
+}
+
+#main {
+    padding: 30px;
+}
+
+.copyright {
+    font-size: 11px;
+    text-align: right;
+    padding: 10px;
+    padding-top: 0;
+}
+
+.qr-code {
+    .guide {
+        margin-bottom: 15px;
+        font-size: 13px;
+        text-align: center;
+    }
+
+    width: 300px;
+    margin: auto;
+
+    .qr-code__content {
+        box-shadow: 0px 0px 15px 10px #00000038;
+    }
+
+    .qr-code__url {
+        text-align: center;
+        box-shadow: none;
+        border: none;
+        border: 1px solid #ddd;
+    }
+
+    .message {
+        font-size: 11px;
+        font-style: italic;
+        margin-top: 3px;
+    }
+}
+
+.input-group {
+    &:after {
+        clear: both;
+        content: " ";
+        display: block;
+    }
+
+    .btn {
+        float: left;
+        margin-left: 2px;
+    }
+
+    .input {
+        float: left;
+        width: calc(100% - 50px);
+    }
+}
